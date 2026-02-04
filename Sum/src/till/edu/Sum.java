@@ -1,4 +1,4 @@
-package tiil.edu;
+package till.edu;
 import java.util.Scanner;
 public class Sum {
 

@@ -1,6 +1,6 @@
 package tiil.edu;
 
-public class BT1 {
+public class Luong {
 	public static void main(String[] args) {
 		int soGioLam =41;
 		int luongTheoGio = 30000;

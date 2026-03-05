@@ -1,7 +1,8 @@
 package tiil.edu;
-import java.util.Scanner;
-public class bt3 {
 
+import java.util.Scanner;
+
+public class TimNghiem {
 	public static void main(String[] args) {
 		Scanner s= new Scanner(System.in);
 		System.out.print("Nhap a:");
@@ -21,5 +22,4 @@ public class bt3 {
 			System.out.printf("Gia tri cua %dx+%d=%.2f",a,b,x);
 		}
 	}
-
 }

@@ -13,6 +13,18 @@ public class runMain {
 			Integer tam = banPhim.nextInt();
 			dsNguyen.add(tam);
 		}
+//		in ra danh sach vua nhap
+		System.out.println("Danh sach vua nhap la:");
+		for(int i=0;i<dsNguyen.size();i++) {
+			Integer moi = dsNguyen.get(i);
+			System.out.printf(moi+" ");
+		}
+//		 dem so phan tu chan
+		int ptChan = 0;
+		for(Integer x:dsNguyen) {
+			if(x%2 == 0) ptChan++;
+		}
+		banPhim.close();
 	}
 	
 }

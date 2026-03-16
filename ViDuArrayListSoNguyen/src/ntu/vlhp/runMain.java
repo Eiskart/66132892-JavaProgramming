@@ -22,9 +22,16 @@ public class runMain {
 //		 dem so phan tu chan
 		int ptChan = 0;
 		for(Integer x:dsNguyen) {
-			if(x%2 == 0) ptChan++;
+			if(x%2 == 0) ptChan =ptChan + 1;
 		}
-		banPhim.close();
+		System.out.println("So phan tu chan la" + ptChan);
+		
+		int TongAll=0;
+		for(Integer x: dsNguyen) {
+			TongAll = TongAll + x;
+		}
+		System.out.println("tong la" + TongAll);
+
 	}
 	
 }

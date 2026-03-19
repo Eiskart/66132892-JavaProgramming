@@ -20,5 +20,24 @@ public class NhanVien {
 	public String toString() {
 		return "NhanVien [maNV=" + maNV + ", hoTen=" + hoTen + ", luongCoBan=" + luongCoBan + "]";
 	}
+	public String getMaNV() {
+		return maNV;
+	}
+	public void setMaNV(String maNV) {
+		this.maNV = maNV;
+	}
+	public String getHoTen() {
+		return hoTen;
+	}
+	public void setHoTen(String hoTen) {
+		this.hoTen = hoTen;
+	}
+	public double getLuongCoBan() {
+		return luongCoBan;
+	}
+	public void setLuongCoBan(double luongCoBan) {
+		this.luongCoBan = luongCoBan;
+	}
+	
 	
 }

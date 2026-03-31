@@ -43,9 +43,24 @@ public class Run {
 			System.out.printf("Nhap lop cua hoc sinh thu %d:",i);
 			hsI.setLopHS(banPhim.nextLine());
 			dsHS.add(hsI);
+			
+			for(int i1=0;i1<n;i1++) {
+				System.out.println(dsHS.get(i1).toString());
+			}
 
 		}
+		HocSinh hsT = new HocSinh();
 		
+		dsHS.add(hsT);
+		for(int j = 0;j < n; j++) {
+			HocSinh hsTim = dsHS.get(j);
+			if(hsTim.getTenHS() == "Hoa" ) {
+				dsHS.remove(hsTim);
+				break;
+			}
+		}
+		
+		banPhim.close();
 		
 		
 	}

@@ -58,10 +58,12 @@ public class Main {
 			}
 			if(opHealth <= 0) {
 				System.out.println("!!!CHIEN THANG!!!");
+				player.close();
 				return;
 			}
 			else if(u.getMau() <= 0) {
 				System.out.println("THUA CUOC...");
+				player.close();
 				return;
 			}		
 		}
@@ -112,10 +114,12 @@ public class Main {
 			}
 			if(opHealth <= 0) {
 				System.out.println("!!!CHIEN THANG!!!");
+				player.close();
 				return;
 			}
 			else if(u.getMau() <= 0) {
 				System.out.println("THUA CUOC...");
+				player.close();
 				return;
 			}		
 		}
@@ -166,13 +170,16 @@ public class Main {
 			}
 			if(opHealth <= 0) {
 				System.out.println("!!!CHIEN THANG!!!");
+				player.close();
 				return;
 			}
 			else if(u.getMau() <= 0) {
 				System.out.println("THUA CUOC...");
+				player.close();
 				return;
 			}		
 		}
 		else System.out.println("Khong chon nhan vat");	
+		player.close();
 	}
 }

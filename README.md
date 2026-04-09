@@ -10,3 +10,13 @@ Lưu bài thực hành, bài tập, dự án trong học lập trình Java của
 Project gồm 1 file main `Main.java`, 3 file interfaces `CoTheTanCong`, `CoThePhepHoat`, `CoTheTrangBi`; 1 lớp trừu tượng `NhanVat.java`, 3 file lớp chính `ChienBinh.java`, `PhapSu.java`, `CungThu.java`.
 
 Logic bên trong **Main.java**, lấy dữ liệu người dùng nhập vào thông qua lớp **Scanner** (dữ liệu nhập cần phải là các số 1,2,3,etc.), sử dụng lớp **Random** để lấy giá trị ngẫu nhiên trong khoảng 1-300.
+
+<p align="center">
+  <img src="images/Example1.png" alt="ViDu1" width="200"/>
+  &nbsp;&nbsp;
+  <img src="images/Example3.png" alt="ViDu3" width="200"/>
+  &nbsp;&nbsp;
+  <img src="images/Example4.png" alt="ViDu4" width="200"/>
+</p>
+
+---

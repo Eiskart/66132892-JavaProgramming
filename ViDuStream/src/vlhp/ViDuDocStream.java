@@ -13,6 +13,7 @@ public class ViDuDocStream {
 		System.out.print("Nhap chuoi:");
 		String doc = bufRead.readLine();
 		System.out.println(doc);
+		System.out.print("test");
 	}
 
 }

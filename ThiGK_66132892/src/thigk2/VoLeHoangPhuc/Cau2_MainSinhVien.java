@@ -3,7 +3,8 @@ package thigk2.VoLeHoangPhuc;
 import java.util.*;
 
 public class Cau2_MainSinhVien {
-	/* */
+	/*sử dụng List để tạo danh sách từ lớp SinhVien, dùng lớp Scanner để lấy thông tin sinh viên thứ 4, tạo phương thức getTuoi
+	 để lấy tuổi sinh viên, tạo phương thức toString cho lớp SinhVien để in ra thông tin từng Sinh Viên*/
 	public static void main() {
 		List<SinhVien> dsSV = new ArrayList<>();
 		SinhVien sv1 = new SinhVien("111","Nguyen Van A", "2000", "099432321");
@@ -40,6 +41,7 @@ public class Cau2_MainSinhVien {
 			if(sv.getTuoi() > 20)
 			System.out.println(sv.toString());
 		}
+		sc.close();
 	}
 	
 	
